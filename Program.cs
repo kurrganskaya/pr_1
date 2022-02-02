@@ -1,15 +1,13 @@
-﻿// Задача 2: Даны два числа. Показать большее и меньшее число
+﻿// Задача 4: Найти максимальное из трёх чисел.
 
-int number1 = 32 ; 
-int number2 = 53 ;
+int num1 = 32 ;
+int num2 = 21 ;
+int num3 = 13 ;
 
-if (number1 > number2)
-{
-    Console.WriteLine("max number1: " + number1);
-    Console.WriteLine("min number2: " + number2);
-}
-else
-{
-     Console.WriteLine("max number2: " + number2);
-     Console.WriteLine("min number1: " + number1);
-}
+int max = num1;
+if (num2 > max) max = num2;
+if (num3 > max) max = num3;
+
+
+Console.Write("max = ");
+Console.WriteLine(max);
