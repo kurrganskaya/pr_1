@@ -1,6 +1,8 @@
+// // Задача 8: Показать чётные числа от 1 до N.
+
 int number1 = 1 ; 
-int number2 = 62 ;
-for (int i = number1; i <= number2; i++)
+int N = 62 ;
+for (int i = number1; i <= N; i++)
 { 
     if (i % 2 == 0)
     {
